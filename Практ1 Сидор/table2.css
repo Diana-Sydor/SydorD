@@ -1,0 +1,121 @@
+.box {
+    display: grid;
+    grid-template-columns:repeat(2, 50%);
+    grid-template-rows: repeat(3, 300px);
+    gap: 10px
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6 {
+    font-size: 25px;
+    font-family: Space Grotesk;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.container1 {
+    grid-column: 1;
+    grid-row: 1;
+    border: 2px solid black;
+    border-bottom: 6px solid black;
+    border-radius: 40px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.container2 {
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 40px;
+    border: 2px solid black;
+    border-bottom: 6px solid black;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.container3 {
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 40px;
+    border: 2px solid black;
+    border-bottom: 6px solid black;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.container4 {
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 40px;
+    border: 2px solid black;
+    border-bottom: 6px solid black;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.container5 {
+    grid-column: 1;
+    grid-row: 3;
+    border-radius: 40px;
+    border: 2px solid black;
+    border-bottom: 6px solid black;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.container6 {
+    grid-column: 2;
+    grid-row: 3;
+    border-radius: 40px;
+    border: 2px solid black;
+    border-bottom: 6px solid black;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.container1, .container4 {
+    background: #f3f3f3;
+}
+.container3, .container6 {
+    background: black;
+}
+.container2, .container5 {
+    background: #b9ff66;
+}
+.text1, .text4, .text6  {
+    background-color: #b9ff66;
+    border-radius: 10px;
+    padding: 2px;
+}
+.text2, .text3, .text5 {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.learnmore {
+    font-size: 15px;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.learnmore0 {
+    font-size: 15px;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    margin-left: 90px;
+    margin-top: 100px;
+    color: #f3f3f3;
+}
+
+.image {
+    float: right;
+    margin-right: 15px;
+}
+
+.arrowpic {
+    width: 50px;
+    margin-top: -35px;
+    margin-left: 40px;
+}
