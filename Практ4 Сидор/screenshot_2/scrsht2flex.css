@@ -1,0 +1,163 @@
+body {
+    background: #263149;
+    background: linear-gradient(180deg, rgba(38, 49, 73, 1) 50%, rgba(123, 133, 154, 1) 0%, rgba(202, 211, 230, 1) 50%);
+}
+
+.header {
+    font-size: 40px;
+    justify-self: center;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: oswald;
+}
+
+.phoneimg {
+    filter: invert(100%);
+    width: 30px;
+    height: auto;
+}
+
+.phonenumber {
+    color: #ff3635;
+}
+
+.imgcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+    font-family: oswald;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.dolomitealps {
+    width: 300px;
+    height: 300px;
+    background-image: url(./images/bnbn.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dolomitealpstxt {
+    font-size: 30px;
+    color: white;
+}
+
+.nepal {
+    width: 145px;
+    height: 110px;
+    background-image: url(./images/tt.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nepaltxt {
+    font-size: 30px;
+    color: white;
+}
+
+.kenia {
+    width: 145px;
+    height: 110px;
+    background-image: url(./images/jhjhjh.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keniatxt {
+    font-size: 30px;
+    color: white;
+}
+
+.iceland {
+    width: 145px;
+    height: 110px;
+    background-image: url(./images/jkkjjk.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icelandtxt {
+    font-size: 30px;
+    color: white;
+}
+
+.ethiopia {
+    width: 145px;
+    height: 110px;
+    background-image: url(./images/rtrt.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ethiopiatxt {
+    font-size: 30px;
+    color: white;
+}
+
+.newzeland {
+    width: 300px;
+    height: 300px;
+    background-image: url(./images/bnbn.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newzelandtxt {
+    font-size: 30px;
+    color: white;
+}
+
+.freepik {
+    font-size: 10px;
+    margin-top: 20px;
+    justify-self: center;
+}
+
+.freepik1 {
+    text-decoration: underline;
+}

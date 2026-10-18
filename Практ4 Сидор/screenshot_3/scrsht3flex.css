@@ -1,0 +1,176 @@
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: fit-content;
+    margin-top: 20px;
+    justify-self: center;
+    font-family: inter;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: 275px;
+}
+
+.img1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(./screenshot_3_images/pexels-photo-3914752.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+.container1 {
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.abtus {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txt1 {
+    font-size: 10px;
+    color: gray;
+    margin-top: 15px;
+    line-height: 20px;
+    
+}
+
+.readmorebutn {
+    width: 100px;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color:#20f255;
+    margin-top: 10px;
+}
+
+.readmore {
+    font-size: 10px;
+    font-weight: bold;
+    justify-self: center;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.img2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(./screenshot_3_images/pexels-mohamed-abdelsadig-3196486.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+.container2{
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.whatwedo {
+    font-size: 15px;
+    font-weight: bold;
+    justify-self: flex-end;
+}
+
+.txt2 {
+    font-size: 10px;
+    color: gray;
+    margin-top: 15px;
+    line-height: 20px;
+    text-align: right;
+    
+}
+
+.readmorebutn2 {
+    width: 100px;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color:#20f255;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.readmore2 {
+    font-size: 10px;
+    font-weight: bold;
+    justify-self: center;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: 275px;
+}
+
+.img3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(./screenshot_3_images/pexels-harry-shum-12694483.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+.container3 {
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.whoweare {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txt3 {
+    font-size: 10px;
+    color: gray;
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.readmorebutn3 {
+    width: 100px;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: #20f255;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.readmore3 {
+    font-size: 10px;
+    font-weight: bold;
+}

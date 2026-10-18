@@ -1,0 +1,144 @@
+body {
+    background: #e5e5e5;
+}
+
+.header {
+    margin-top: 30px;
+    text-align: center;
+    font-family: roboto condensed;
+    justify-self: center;
+}
+
+.header1 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.header2 {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.maincontainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-self: center;
+    margin-top: 30px;
+}
+
+.grid1 {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 0px;
+}
+
+.container1 {
+    width: 300px;
+    height: 200px;
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(./images_1/photo_5323322599020369999_w.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container2 {
+    width: 150px;
+    height: 200px;
+    grid-row: 2;
+    grid-column: 1;
+    background-image: url(./images_1/freepik__upload__45233.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container3 {
+    width: 150px;
+    height: 140px;
+    grid-row: 2;
+    grid-column: 2;
+    background-color: #f08003;
+    font-family: roboto condensed;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.txt1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.txt2 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.grid2 {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 0px;
+}
+
+.container4{
+    width: 150px;
+    height: 130px;
+    grid-row: 1;
+    grid-column: 1;
+    background-color: white;
+    font-family: roboto condensed;
+    color: #f08003;
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.txt3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.txt4 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.container5 {
+    width: 150px;
+    height: 190px;
+    grid-row: 1;
+    grid-column: 2;
+    background-image: url(./images_1/female-architect-with-helmet-plan_23-2147702532.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.container6 {
+    width: 300px;
+    height: 210px;
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(./images_1/images.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.freepik {
+    font-size: 10px;
+    margin-top: 20px;
+    justify-self: center;
+    font-family: roboto condensed;
+    font-weight: lighter;
+}
+
+.freepik1 {
+    text-decoration: underline;
+}
