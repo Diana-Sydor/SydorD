@@ -1,0 +1,567 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.toppanel {
+    background-color: white;
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    padding: 5px 5px;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    justify-self: flex-start;
+    cursor: default;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.menu {
+    width: 30px;
+    height: auto;
+    justify-self: flex-end;
+    cursor: default;
+}
+
+.menu:hover {
+    cursor: pointer;
+    filter: invert(53%) sepia(87%) saturate(2793%) hue-rotate(1deg) brightness(102%) contrast(105%);
+}
+
+.organicbreadscontainer {
+    width: 100%;
+    height: 700px;
+    background-image: url(./images/cbef6caf8d86488c8701cef96525cb11.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.orgbtext {
+   margin-left: 40%;
+   padding-top: 100px;
+}
+
+.fambakery {
+    font-size: 30px;
+    font-family: Montserrat;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.orgbreads {
+    font-size: 130px;
+    font-family: Roboto Condensed;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 0.8;
+    font-weight: bold;
+}
+
+.freepik1 {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: default;
+}
+
+.frpk1 {
+    text-decoration: underline;
+    color: black;
+}
+
+.frpk1:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.infogrid {
+    margin-left: 40%;
+    padding-top: 100px;
+    min-width: 600px;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(1, 150px);
+    gap: 30px;
+    font-family: Montserrat;
+}
+
+.place {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.findus {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.address {
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 20px;
+    font-family: Roboto;
+}
+
+.time {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.hours {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.workday {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.workday.o {
+    margin-top: 15px;
+}
+
+.time {
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: Roboto;
+}
+
+.phonenum {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.callus {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.num {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    cursor: default;
+}
+
+.num.o:hover {
+    text-decoration-color:black;
+    cursor: pointer;
+}
+
+.num.t:hover {
+    text-decoration-color:black;
+    cursor: pointer;
+}
+
+.dbheader {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    justify-self: center;
+    font-family: Montserrat;
+}
+
+.dbgrid {
+    max-width: 90%;
+    margin: 80px auto;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 70px 230px 70px 230px 70px 230px;
+    grid-template-rows: repeat(2, auto);
+    column-gap: 30px;
+    row-gap: 65px;
+    font-family: Montserrat;
+}
+
+
+.dbgrid .icon {
+    justify-self: start;
+    align-self: start;
+}
+
+.dbgrid .icon img {
+    width: 60px;
+    height: 60px;
+}
+
+
+.feature-text1, .feature-text2, .feature-text3, .feature-text4, .feature-text5, .feature-text6 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature-text1 .bfd, .feature-text2 .gv, .feature-text3 .in, .feature-text4 .dtyd, .feature-text5 .notl, .feature-text6 .db {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bfdtxt, .gvtxt, .intxt, .dtydtxt, .notltxt, .dbtxt {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.freshbreads {
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+    background-image: url(./images/tasty-bread-table.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: Roboto, sans-serif;
+    padding-top: 130px;
+}
+
+.frbr {
+    margin-left: 50%;
+    width: 500px;
+    font-family: Montserrat, sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.frbrtxt {
+    margin-left: 50%;
+    margin-top: 30px;
+    width: 490px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.freepik2 {
+    margin-left: 50%;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.freepik2 .frpk1 {
+    color: white;
+    text-decoration: underline;
+}
+
+.readmorebttn {
+    margin-left: 50%;
+    margin-top: 40px;
+    width: 195px;
+    height: 52px;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.rdmr {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.readmorebttn:hover {
+    background-color: white;
+}
+
+.readmorebttn:hover .rdmr {
+    color: black;
+}
+
+.ourbreads {
+    background-color: #eeeeee;
+    padding: 35px 20px 30px;
+    font-family: Montserrat, sans-serif;
+}
+
+.breadheader {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.breadgrid {
+    display: grid;
+    grid-template-columns: repeat(4, 205px);
+    grid-template-rows: repeat(2, 335px);
+    gap: 20px;
+    justify-content: center;
+}
+.breadcard {
+    background-color: white;
+    border-radius: 16px;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.breadcard img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.wb, .fb, .lb, .sr, .ob, .wgb, .bgt {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.smpltxt {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.clickagain {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.clickagain:hover {
+    text-decoration: none;
+}
+
+.more {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    margin-top: auto;
+    margin-bottom: 12px;
+}
+
+.more:hover {
+    text-decoration-color: orange;
+    cursor: pointer;
+}
+
+.freepik3 {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    margin-top: 35px;
+}
+
+.freepik3 a {
+    color: black;
+    text-decoration: underline;
+}
+
+.freepik3 a:hover {
+    cursor: pointer;
+}
+
+.quality {
+    background: #EFF0EF;
+    background: linear-gradient(180deg, rgba(239, 240, 239, 1) 50%, rgba(255, 255, 255, 1) 0%);
+    padding: 25px 20px 40px;
+    font-family: Montserrat, sans-serif;
+}
+
+.qualitygrid {
+    display: grid;
+    grid-template-columns: 275px 275px;
+    grid-template-rows: 205px 335px;
+    column-gap: 30px;
+    row-gap: 25px;
+    justify-content: center;
+}
+
+.qualityheader {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.qualitybread {
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.qualitybread img {
+    width: 275px;
+    height: 410px;
+    object-fit: cover;
+}
+
+.qualityman {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.qualityman img {
+    width: 275px;
+    height: 335px;
+    object-fit: cover;
+}
+
+.qualityinfo {
+    width: 580px;
+    margin-top: 0;
+}
+.qualitytitle {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.qualitytext {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.ul {
+    text-decoration: underline;
+    text-decoration-color: black;
+    cursor: pointer;
+}
+
+.ul:hover {
+    text-decoration-color: orange;
+}
+
+.freepik4 {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.freepik4 a {
+    color: black;
+    text-decoration: underline;
+}
+
+.freepik4 a:hover {
+    text-decoration-color: orange;
+}
+
+.learnmorebttn {
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+.learnmore {
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.learnmorebttn:hover {
+    background-color: black;
+}
+
+.learnmorebttn:hover .learnmore {
+    color: white;
+}
+
+.sweets {
+    width: 100%;
+    height: 400px;
+    background-image: url("./images/uyy.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: Montserrat, sans-serif;
+    padding: 70px 20px 60px;
+}
+
+.sweetsmenu {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.sweetsheader {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.sweetsgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 255px);
+    grid-template-rows: 218px;
+    gap: 18px;
+    justify-content: center;
+}
+
+.sweetcard {
+    background-color: white;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.sweettitle {
+    font-size: 18px;
+    font-weight: bold;;
+    margin-bottom: 18px;
+}
+
+.sweetlist {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.freepik5 {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.freepik5 a {
+    color: white;
+    text-decoration: underline;
+}
+
+.freepik5 a:hover {
+    cursor: pointer;
+}
