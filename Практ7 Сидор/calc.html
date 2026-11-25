@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Калькулятори</title>
+        <script src="calc.js"></script>
+        <link rel="stylesheet" href="calc.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Google+Sans+Flex&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="row1">
+             <div class="calc1">
+                <h2>Формула Герона</h2>
+                <label>Введіть a:</label>
+                <input type="number" id="a">
+                <br><br>
+                <label>Введіть b:</label>
+                <input type="number" id="b">
+                <br><br>
+                <label>Введіть c:</label>
+                <input type="number" id="c">
+                <br><br>
+                <button onclick="calculateArea()">Розрахувати</button>
+                <br><br>
+                <label>Площа:</label>
+                <input type="text" id="result" readonly>
+            </div>
+            <div class="calc2">
+                <h2>Через дві сторони та кут</h2>
+                <label>Введіть a:</label>
+                <input type="number" id="a2">
+                <br><br>
+                <label>Введіть b:</label>
+                <input type="number" id="b2">
+                <br><br>
+                <label>Введіть кут:</label>
+                <input type="number" id="c2">
+                <br><br>
+                <button onclick="calculateArea2()">Розрахувати</button>
+                <br><br>
+                <label>Площа:</label>
+                <input type="text" id="result2" readonly>
+            </div>
+            <div class="calc3">
+                <h2>Через дві сторону та висоту</h2>
+                <label>Введіть a:</label>
+                <input type="number" id="a3">
+                <br><br>
+                <label>Введіть b:</label>
+                <input type="number" id="b3">
+                <br><br>
+                <button onclick="calculateArea3()">Розрахувати</button>
+                <br><br>
+                <label>Площа:</label>
+                <input type="text" id="result3" readonly>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="calc4">
+                <h2>Через три сторони і радіус</h2>
+                <label>Введіть a:</label>
+                <input type="number" id="a4">
+                <br><br>
+                <label>Введіть b:</label>
+                <input type="number" id="b4">
+                <br><br>
+                <label>Введіть c:</label>
+                <input type="number" id="c4">
+                <br><br>
+                <label>Введіть радіус:</label>
+                <input type="number" id="radius">
+                <br><br>
+                <label>Введіть радіус:</label>
+                <button onclick="calculateArea4()">Розрахувати</button>
+                <br><br>
+                <label>Площа:</label>
+                <input type="text" id="result4" readonly>
+            </div>
+            <div class="calc5">
+                <h2>Перевірка на паліндром</h2>
+                <label>Введіть число:</label>
+                <input type="number" id="a5">
+                <br><br>
+                <button onclick="calculate5()">Розрахувати</button>
+                <br><br>
+                <label>Результат:</label>
+                <input type="text" id="result5" readonly>
+            </div>
+            <div class="calc6">
+                <h2>Перевірка на анаграму</h2>
+                <label>Введіть перше слово:</label>
+                <input type="text" id="a6">
+                <br><br>
+                <label>Введіть друге слово:</label>
+                <input type="text" id="b6">
+                <br><br>
+                <button onclick="calculate6()">Перевірити</button>
+                <br><br>
+                <label>Результат:</label>
+                <input type="text" id="result6" readonly>
+            </div>
+        </div>
+        <div class="row3">
+             <div class="calc7">
+                <h2>Число з послідовності фібоначі</h2>
+                <label>Введіть номер числа:</label>
+                <input type="number" id="a7">
+                <br><br>
+                <button onclick="calculate7()">Розрахувати</button>
+                <br><br>
+                <label>Результат:</label>
+                <input type="text" id="result7" readonly>
+            </div>
+            <div class="calc8">
+                <h2>Чи належить послідовності фібоначі</h2>
+                <label>Введіть число:</label>
+                <input type="number" id="a8">
+                <br><br>
+                <button onclick="calculate8()">Розрахувати</button>
+                <br><br>
+                <label>Результат:</label>
+                <input type="text" id="result8" readonly>
+            </div>
+        </div>
+        <script src="calc.js"></script>
+    </body>
+</html>
