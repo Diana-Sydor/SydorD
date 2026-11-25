@@ -46,7 +46,6 @@ function calculate6() {
         document.getElementById("result6").value = "Не анаграма";
     }
 }
-
 function calculate7() {
     let n = Number(document.getElementById("a7").value);
     let a = 1;
@@ -58,7 +57,6 @@ function calculate7() {
     }
     document.getElementById("result7").value = b;
 }
-
 function calculate8() {
     let n = Number(document.getElementById("a8").value);
     let a = 1;
